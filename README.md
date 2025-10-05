@@ -5,7 +5,6 @@ The app dynamically fetches country names and capitals from a **PostgreSQL datab
 
 ---
 
-## 🚀 Features
 
 ## ✨ Features
 
