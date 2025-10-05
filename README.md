@@ -28,10 +28,11 @@ Follow these steps to set up the PostgreSQL database for the **Capital Quiz** pr
 
 ### 🧩 Step 1: Create a New Database
 1. Open **pgAdmin** and connect to your PostgreSQL server.  
-2. Right-click on **Databases** → click **Create** → **Database**.  
-3. Enter a name, for example: `capitalquiz`.  
-4. Set a **password** that you’ll also use in your project’s connection settings.  
+2. When installing PostgreSQL, you will have set a **username** and **password** — these will be used to connect to the server.  
+3. Right-click on **Databases** → click **Create** → **Database**.  
+4. Enter a name, for example: `capitalquiz`.  
 5. Click **Save**.
+
 
 ---
 
