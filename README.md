@@ -31,7 +31,7 @@ The app dynamically fetches country names and capitals from a **PostgreSQL datab
 
 ## 📸 Demo
 
-![Capital Quiz Demo](./assets/screenshot.jpg)  
+![Capital Quiz Demo](./capitalQuiz.jpg)  
 
 
 ---
