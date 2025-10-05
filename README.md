@@ -31,8 +31,16 @@ cd capital-quiz
 ```bash
 npm install
 ```
-3. Set up your PostgreSQL database.
-
+3. **Start the server**
+   ```bash
+   node index.js
+   ```
+   The app will be available at 👉 http://localhost:3000
+4. **(Optional) Change the port**<br/>
+   Open `index.js` and modify:
+   ```javascript
+   const port = 3000; // change this to your preferred port
+   ```
 ---
 ## 🛠️ Built With
 
