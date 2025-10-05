@@ -40,5 +40,11 @@ The app dynamically fetches country names and capitals from a **PostgreSQL datab
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/capital-quiz.git
+git clone https://github.com/pouriavj/capital-quiz.git
 cd capital-quiz
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Set up your PostgreSQL database.
