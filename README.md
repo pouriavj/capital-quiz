@@ -71,6 +71,25 @@ Follow these steps to set up the PostgreSQL database for the **Capital Quiz** pr
 > - Because the `id` column is defined as `SERIAL PRIMARY KEY`, PostgreSQL will **automatically continue numbering** for any **new rows** you insert later — picking up from the **highest existing ID** in the table.
 
 ---
+## 🔑 Database Authentication
+
+The app connects to PostgreSQL using a username and password.  
+Replace the placeholders with your credentials:
+
+```js
+import pg from "pg";
+
+const db = new pg.Client({
+  user: "your-username-here",      // <-- Enter your PostgreSQL username here
+  host: "localhost",               // <-- Usually localhost unless using a remote DB
+  database: "capitalquiz",         // <-- Your database name
+  password: "your-password-here",  // <-- Enter your PostgreSQL password here
+  port: 5432,                      // <-- Default PostgreSQL port
+});
+
+db.connect(); // Connects to the database using the credentials above
+```
+---
 
 ## ⚙️ How to Run
 
