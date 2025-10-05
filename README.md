@@ -23,7 +23,7 @@ The app dynamically fetches country names and capitals from a **PostgreSQL datab
 - HTML5 / CSS3  
 
 ### Additional Libraries
-- [Body-parser](https://www.npmjs.com/package/body-parser) – to parse form submissions  
+- [body-parser](https://www.npmjs.com/package/body-parser) – to parse form submissions  
 - [pg](https://www.npmjs.com/package/pg) – PostgreSQL client for Node.js  
 - [JSON](https://www.json.org/json-en.html) – data format used for database queries  
 
