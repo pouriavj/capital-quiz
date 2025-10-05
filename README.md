@@ -45,7 +45,7 @@ Follow these steps to set up the PostgreSQL database for the **Capital Quiz** pr
        capital TEXT
    );
 ```
-3.Click Execute (▶️) to create the table.
+3. Click Execute (▶️) to create the table.
 
 ---
 
