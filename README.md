@@ -20,6 +20,22 @@ The app dynamically fetches country names and capitals from a **PostgreSQL datab
 
 ---
 
+## 🗄️ Database Setup (PostgreSQL)
+
+Follow these steps to set up the PostgreSQL database for the **Capital Quiz** project.
+
+---
+
+### 🧩 Step 1: Create a New Database
+Make sure PostgreSQL is installed and running on your system.  
+Open your PostgreSQL shell or pgAdmin, then run:
+
+```sql
+CREATE DATABASE capitalquiz;
+```
+
+---
+
 ## ⚙️ How to Run
 
 1. Clone the repository:
