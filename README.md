@@ -66,7 +66,7 @@ Follow these steps to set up the PostgreSQL database for the **Capital Quiz** pr
 ## 🔑 Database Authentication
 
 The app connects to PostgreSQL using a username and password.  
-Replace the placeholders with your credentials:
+Open `index.js` and Replace the placeholders with your credentials:
 
 ```js
 
