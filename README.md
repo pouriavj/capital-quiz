@@ -13,22 +13,6 @@ The app dynamically fetches country names and capitals from a **PostgreSQL datab
 - Simple and responsive design with CSS  
 
 ---
-
-## 🛠️ Built With
-
-### Core Tech
-- [Node.js](https://nodejs.org/)  
-- [Express.js](https://expressjs.com/)  
-- [EJS](https://ejs.co/)  
-- HTML5 / CSS3  
-
-### Additional Libraries
-- [body-parser](https://www.npmjs.com/package/body-parser) – to parse form submissions  
-- [pg](https://www.npmjs.com/package/pg) – PostgreSQL client for Node.js  
-- [JSON](https://www.json.org/json-en.html) – data format used for database queries  
-
----
-
 ## 📸 Demo
 
 ![Capital Quiz Demo](./capitalQuiz.jpg)  
@@ -48,3 +32,21 @@ cd capital-quiz
 npm install
 ```
 3. Set up your PostgreSQL database.
+
+---
+## 🛠️ Built With
+
+### Core Tech
+- [Node.js](https://nodejs.org/)  
+- [Express.js](https://expressjs.com/)  
+- [EJS](https://ejs.co/)  
+- HTML5 / CSS3  
+
+### Additional Libraries
+- [body-parser](https://www.npmjs.com/package/body-parser) – to parse form submissions  
+- [pg](https://www.npmjs.com/package/pg) – PostgreSQL client for Node.js  
+- [JSON](https://www.json.org/json-en.html) – data format used for database queries  
+
+
+
+
