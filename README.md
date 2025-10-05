@@ -56,9 +56,19 @@ Follow these steps to set up the PostgreSQL database for the **Capital Quiz** pr
 5. Leave **Delimiter** as a comma `,`.  
 6. Click **OK** to import the data.
 
-> ⚠️ **Note:**  
-> - The CSV file should contain only the `country` and `capital` columns — **no `id` column**.  
-> - PostgreSQL will automatically assign IDs using the `SERIAL PRIMARY KEY` field.
+> ⚙️ **Table Structure Example:**
+> ```sql
+> CREATE TABLE capitals (
+>     id SERIAL PRIMARY KEY,
+>     country TEXT,
+>     capital TEXT
+> );
+> ```
+>
+> ⚠️ **Notes:**
+> - The `capitals.csv` file already includes an `id` column.  
+> - PostgreSQL will use the existing IDs from the CSV during import.  
+> - Because the `id` column is defined as `SERIAL PRIMARY KEY`, PostgreSQL will **automatically continue numbering** for any **new rows** you insert later — picking up from the **highest existing ID** in the table.
 
 ---
 
