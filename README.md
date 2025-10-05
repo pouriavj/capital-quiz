@@ -69,7 +69,6 @@ The app connects to PostgreSQL using a username and password.
 Replace the placeholders with your credentials:
 
 ```js
-import pg from "pg";
 
 const db = new pg.Client({
   user: "your-username-here",      // <-- Enter your PostgreSQL username here
@@ -79,7 +78,7 @@ const db = new pg.Client({
   port: 5432,                      // <-- Default PostgreSQL port
 });
 
-db.connect(); // Connects to the database using the credentials above
+
 ```
 ---
 
