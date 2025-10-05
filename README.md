@@ -7,10 +7,14 @@ The app dynamically fetches country names and capitals from a **PostgreSQL datab
 
 ## 🚀 Features
 
-- Randomly selects countries for quiz questions from a PostgreSQL database  
-- Tracks total correct answers per session  
-- Uses **server-side rendering** with EJS  
-- Simple and responsive design with CSS  
+## ✨ Features
+
+- Users are shown a country and must guess its capital.  
+- The app gives a **score for each correct capital** guessed.  
+- Questions are selected randomly from a PostgreSQL database containing countries and capitals.  
+- The total score is tracked and displayed to the user.  
+- Simple and interactive quiz interface with input validation.
+
 
 ---
 ## 📸 Demo
