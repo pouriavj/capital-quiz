@@ -97,7 +97,7 @@ npm install
 ```bash
 node index.js
 ```
-The app will be available at 👉 http://localhost:3000
+The app will be available at 👉 http://localhost:3000<br/>
 4. **(Optional) Change the port**<br/>
 Open `index.js` and modify:
 ```javascript
