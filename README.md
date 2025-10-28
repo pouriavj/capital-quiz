@@ -2,6 +2,7 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)
 ![Express](https://img.shields.io/badge/Express.js-4.18-black?logo=express)
+![EJS](https://img.shields.io/badge/EJS-3.1-red?logo=ejs)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
 ![Axios](https://img.shields.io/badge/Axios-1.5-blue?logo=axios)
 ![ES6](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
