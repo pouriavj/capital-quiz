@@ -6,7 +6,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
 ![Axios](https://img.shields.io/badge/Axios-1.5-blue?logo=axios)
 ![ES6](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 
 
